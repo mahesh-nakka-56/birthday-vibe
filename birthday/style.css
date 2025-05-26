@@ -1,0 +1,167 @@
+
+     body {
+    margin: 0;
+    font-family: 'Comic Sans MS', cursive;
+    background:grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    min-height: 100vh;
+    text-align: center;
+    padding: 20px;
+    box-sizing: border-box;
+}
+.container {
+    position: relative;
+    width: 100%;
+    max-width:600px;
+    padding: 25px;
+    margin: auto;
+    background:black;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+    color: white;
+}
+.message {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #e91e63;
+    width: 100%;
+    /* height: 100%; */
+    max-width:100%;
+    /* max-height: 100%; */
+}
+
+ .subtext {
+            font-size: 18px;
+            font-style: italic;
+            color:white;
+        } 
+
+.page {
+    background: white;
+    padding: 40px;
+    border-radius: 20px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+    max-width: 800px;
+    max-height: 100%; 
+    width: 100%;
+     height: 100%;
+    
+    /* background: #ffffff;
+    color: #333;
+    padding: 40px;
+    border-radius: 20px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+        max-width: 500px;
+         width: 100%; 
+         height: 100%; */
+
+}
+
+
+
+h1 {
+    color: #e91e63;
+    font-size: 2em;
+}
+
+p, .text {
+    font-size: 1.2em;
+    color: #444;
+}
+
+.image {
+    width: 400px;
+    height: 500px;
+    max-width: 400px;
+    /* max-height: 100%; */
+    margin: 10px 0;     
+}
+
+.btn {
+        max-width: 100%;
+    max-height: 100%;
+
+        width: 200px;
+    display: inline-block;
+    background: #ff416c;
+    color: white;
+    padding: 12px 20px;
+    margin: 10px;
+    border-radius: 10px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1rem; 
+}
+
+.btn:hover {
+    background: #ff4b2b;
+}
+
+.play-button {
+    margin-top: 20px;
+    padding: 12px 20px;
+    background: #ff6f61;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.play-button:hover {
+    background: #ff3b2f;
+}
+
+.photo {
+    width:100%;
+    max-width:350px;
+    max-height:500px;
+    height:100%;
+    border-radius: 10px;
+    background-color: white;
+    margin-bottom: 15px;
+}
+.video {
+  margin: 20px 0;
+  border-radius: 15px;
+  max-width:fit-content;
+  /* max-height: fit-content; */
+   width:100%;
+  /* height:100%; */
+  max-height: 500%; 
+}
+
+
+@media (max-width: 480px) {
+    .message {
+        font-size: 1.5rem;
+    }
+
+    .subtext{
+        font-size: 1rem;
+    }
+
+    .play-button, .btn {
+        width: 100%;
+        font-size: 1rem;
+        padding: 14px;
+    }
+
+    .container, .box, .page {
+        padding: 15px;
+    }
+
+    .cake {
+        width: 120px;
+    }
+
+    .photo {
+        border-radius: 5px;
+        margin-bottom: 15px;
+    }
+}
